@@ -11,7 +11,7 @@ public class ClienteSocket {
 
     public static void main(String[] args) {
         try{
-            Socket cliente = new Socket("127.0.0.1", 12346);
+            Socket cliente = new Socket("172.16.4.198", 12346);
             
             //Çendo mensagens do servidor
             new Thread(){
